@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transfer List</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <span class="back-icon">⬅</span>
+      <h1>Transfer List</h1>
+      <span class="github-icon">🐙</span>
+    </div>
+  </header>
+  <main>
+    <div class="transfer-container">
+      <div class="list">
+        <h3>Available</h3>
+        <ul id="available-list" class="list-box">
+          <li><input type="checkbox" value="JS"> JS</li>
+          <li><input type="checkbox" value="HTML"> HTML</li>
+          <li><input type="checkbox" value="CSS"> CSS</li>
+          <li><input type="checkbox" value="TS"> TS</li>
+        </ul>
+      </div>
+      <div class="buttons">
+        <button id="move-all-right">>></button>
+        <button id="move-selected-right">></button>
+        <button id="move-selected-left"><</button>
+        <button id="move-all-left"><<</button>
+      </div>
+      <div class="list">
+        <h3>Selected</h3>
+        <ul id="selected-list" class="list-box">
+          <li><input type="checkbox" value="React"> React</li>
+          <li><input type="checkbox" value="Angular"> Angular</li>
+          <li><input type="checkbox" value="Vue"> Vue</li>
+          <li><input type="checkbox" value="Svelte"> Svelte</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="index2.js"></script>
+</body>
+</html>

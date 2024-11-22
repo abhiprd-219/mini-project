@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stepper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <h1 class="app-title">Stepper</h1>
+   
+  </header>
+
+  <!-- Main Stepper Section -->
+  <div class="stepper-container">
+    <div class="stepper">
+      <div class="step" data-step="1">
+        <div class="circle">1</div>
+        <span>Contact Details</span>
+      </div>
+      <div class="step" data-step="2">
+        <div class="circle">2</div>
+        <span>Shipping Address</span>
+      </div>
+      <div class="step" data-step="3">
+        <div class="circle">3</div>
+        <span>Payment</span>
+      </div>
+      <div class="step" data-step="4">
+        <div class="circle">4</div>
+        <span>Delivered</span>
+      </div>
+    </div>
+    <div class="message">
+      <h2 id="status-message">Click "Next" to proceed</h2>
+    </div>
+    <div class="buttons">
+      <button id="prev-btn" disabled>Previous</button>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
